@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+.articulo{
+    display: flex;
+    background-color: rgb(255, 221, 209);
+    flex-direction: row;
+    justify-content: center;
+}
+
+.texto{
+    width: 700px;
+    padding-top: 150px;
+    padding-right: 50px;
+    font-size: 21px;
+    color: #3D1306;
+}
+
+#imagen{
+    background-image: url(media/07cd62e637717d0d54acefecbeacecbe.jpg);
+    background-position: right;
+    width: 500px;
+    height: 750px;
+}
+
+button{
+    width: 150px;
+    height: 45px;
+    background-color: #bd736a;
+    color: white;
+    border-color: #be6c61;
+    font-size: 18px;
+}
